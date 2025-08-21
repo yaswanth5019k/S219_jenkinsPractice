@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:9090/back1/auth";
+const API_URL = "http://localhost:9191/ecommerce-1.0.0/auth";
 
 export const login = async (username, password) => {
   const response = await axios.post(`${API_URL}/login`, { username, password });
